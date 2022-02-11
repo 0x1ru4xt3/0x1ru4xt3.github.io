@@ -1,0 +1,20 @@
+- About
+- Theory
+    - Cryptography
+    - OSI Model
+    - Services (Avail., Confid., ...)
+- Programs
+    - GoBuster
+    - John The Ripper
+    - Proxies
+        - OWASP ZAP
+        - Burp Suite
+        - WebScarab
+    - BeeF
+    - SETools
+    - Veil
+    - Shellter
+- Tools
+- Commands Cheat-sheet
+    - Reverse shells
+- Job Interviews
