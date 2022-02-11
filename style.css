@@ -1,0 +1,37 @@
+body {
+  background-color:#382933;
+  font-family: Monospace;
+}
+
+.box {
+  border: 4px solid #A4B494;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 20px;
+  background-color: #3B5249;
+}
+
+.menu  {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3B5249;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+.menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #519872;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #A4B494;
+}
