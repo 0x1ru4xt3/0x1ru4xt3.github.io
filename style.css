@@ -1,14 +1,51 @@
+/* Beltz - Txuri - Gorri  OPTION ONE */
+:root {
+  --darkest:  #DDDDDD;
+  --dark:     #222831;
+  --light:    #30475E;
+  --lightest: #F05454;
+}
+
+/* OPTION TWO */
+/*:root {
+  --darkest:  #041C32;
+  --dark:     #04293A;
+  --light:    #064663;
+  --lightest: #ECB365;
+}*/
+
+html {
+  height: 100%;
+}
+
 body {
-  background-color:#382933;
+  background-color: var(--darkest);
   font-family: Monospace;
+  overflow: hidden;
+  height: 100%;
+}
+
+.title {
+  color: var(--lightest);
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  margin-left: 24%;
 }
 
 .box {
-  border: 4px solid #A4B494;
+  height: 75%;
+  border: 4px solid var(--lightest);
   border-radius: 30px;
-  padding: 50px;
-  margin: 20px;
-  background-color: #3B5249;
+  padding: 1.5%;
+  margin-left: 22%;
+  margin-right: 2%;
+  background-color: var(--dark);
+}
+
+.container {
+  color: var(--lightest);
+  width: 100%;
+  height: 100%; 
 }
 
 .menu  {
@@ -18,20 +55,23 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #3B5249;
-  overflow-x: hidden;
+  background-color: var(--dark);
+  overflow: hidden;
   padding-top: 30px;
+  border-right: 4px solid var(--lightest);
 }
 
 .menu a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #519872;
+  color: var(--light);
   display: block;
   transition: 0.3s;
 }
 
 .menu a:hover {
-  color: #A4B494;
+  color: var(--lightest);
+  cursor:pointer;
 }
+

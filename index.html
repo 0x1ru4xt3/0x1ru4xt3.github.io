@@ -4,22 +4,21 @@
     <title>Cheetah sheet</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="cheetah.ico" type="image/x-icon" />
-
+    <script src="js/functions.js"></script>
 </head>
-<body>
+<body onload="loaded()">
 
 <div id="menu" class="menu">
-  <a href="index.html">About</a>
-  <a href="theory.html">Theory</a>
-  <a href="programms.html">Programms</a>
-  <a href="tools.html">Tools</a>
-  <a href="commands.html">Commands</a>
-  <a href="interviews.html">Job Interviews</a>
+  <a onclick="loadFile('about.html')">About</a>
+  <a onclick="loadFile('theory.html')">Theory</a>
+  <a onclick="loadFile('programms.html')">Programms</a>
+  <a onclick="loadFile('tools.html')">Tools</a>
+  <a onclick="loadFile('commands.html')">Commands</a>
+  <a onclick="loadFile('interviews.html')">Job Interviews</a>
 </div>
 
-<div id="box" class="box">
-  
-</div>
+<h1 id="title" class="title">Title</h1>
+<div id="box" class="box"></div>
 
 </body>
 </html>
