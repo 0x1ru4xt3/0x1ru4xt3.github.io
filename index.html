@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <title>0x1ru4xt3</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/ico.ico" type="image/x-icon" />
-    <script src="js/functions.js"></script>
+    <meta name="viewport" content="width=450, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+    <script type="text/javascript">
+      function loadFile(page){
+        document.getElementById("title").innerHTML=page;
+        let container1 = '<object type="text/html" class="container" data="';
+        let container2 = container1.concat(page,'" >Something went wrong!</object>');
+        document.getElementById("box").innerHTML=container2;
+      }
+    </script>
 </head>
-<body onload="loaded()">
+<body onload="loadFile('about.html')">
 
 <div id="menu" class="menu">
   <a onclick="loadFile('about.html')">About</a>
